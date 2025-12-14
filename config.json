@@ -1,0 +1,26 @@
+{
+    "accounts": [
+        {
+            "email": "yours_email",
+            "password": "yours_password"
+        }
+    ],
+    "urls": {
+        "login": "https://ikuuu.de/auth/login",
+        "checkin": "https://ikuuu.de/user/checkin",
+        "info": "https://ikuuu.de/user/profile"
+    },
+    "push": {
+        "sckey": "server酱的SCKEY-不需要请填1",
+        "token": "pushplus的token-不需要请填1"
+    },
+    "proxy": {
+        "enabled": false,
+        "http": "http://127.0.0.1:7890（你的代理地址，不开代理将enabled设为false）",
+        "https": "http://127.0.0.1:7890（修改时将该文字删除）"
+    },
+    "settings": {
+        "timeout": 10,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+    }
+}
