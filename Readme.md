@@ -4,7 +4,6 @@
 
 ### 文件位置
 - 开发时：与 `main.py` 在同一目录
-- 打包后：与 `.exe` 文件在同一目录
 
 ### 配置项说明
 
@@ -155,19 +154,3 @@
 ### 4. 代理错误怎么办？
 - 如果使用VPN，设置 `"enabled": false`
 - 如果使用代理软件，确认端口号并设置 `"enabled": true`
-
-### 5. 打包成exe后如何修改配置？
-用记事本或其他文本编辑器打开 exe 同目录下的 `config.json` 文件进行修改即可。
-
----
-
-## 打包为 exe 文件
-
-使用 PyInstaller 打包：
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --name ikuuu_checkin main.py
-```
-
-打包完成后，将 `config.json` 复制到 exe 文件同目录下即可。
